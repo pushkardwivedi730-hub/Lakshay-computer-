@@ -1,0 +1,760 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.main .lakshaya {
+    width: 100%;
+    height: 15vh;
+    float: left;
+}
+
+.main .lakshaya .text {
+    width: 50%;
+    height: 15vh;
+    float: left;
+  
+}
+
+
+.main .lakshaya .menu {
+    width: 50%;
+    height: 15vh;
+    padding: 8px 8px;
+    float: left;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+.main .lakshaya .menu #menu-btn {
+    display: none;
+    float: right;
+
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    float: right;
+}
+
+.sub {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+
+.main .lakshaya .menu ul {
+    float: right;
+
+}
+
+.main .lakshaya .menu ul li {
+    display: inline;
+    margin-left: 12px;
+}
+
+
+
+
+
+.main .responsive {
+    width: 100%;
+    height: 40vh;
+    float: left;
+}
+
+.main button {
+    width: 30%;
+    height: 15vh;
+    border-radius: 18px;
+    float: left;
+}
+
+.main .our {
+    width: 100%;
+    height: 20vh;
+    float: left;
+}
+
+.main .box-1 {
+    width: 100%;
+    height: 10vh;
+    background-color: orange;
+}
+
+.main .web {
+    width: 80%;
+    height: 25vh;
+    float: left;
+}
+
+.main .digital {
+    width: 80%;
+    height: 25vh;
+    float: left;
+}
+
+.main .graphic {
+    width: 80%;
+    height: 25vh;
+    float: left;
+}
+
+.main .footer {
+    width: 100%;
+    height: 10vh;
+    float: left;
+}
+
+/* Desktop */
+
+@media (min-width: 993px) {
+    main {
+        width: 100%;
+        height: auto;
+        background-color: azure;
+
+    }
+
+    .main .lakshaya {
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(1, 107, 149);
+        color: white;
+        padding: 20px 40px;
+        float: left;
+    }
+
+    .lakshaya h2 {
+        font-size: 35px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .main .responsive {
+        width: 100%;
+        height: auto;
+        background-color: rgb(51, 141, 176);
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 10px;
+        float: left;
+
+    }
+
+    .main .responsive h2 {
+        font-size: 50px;
+        font-family: sans-serif;
+        color: white;
+    }
+
+
+    .main .responsive h4 {
+        font-family: sans-serif;
+        font-size: 30px;
+        margin-top: 10px;
+
+    }
+
+
+    .main .responsive button {
+        width: auto;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        color: rgb(51, 141, 176);
+        font-size: 20px;
+        border: none;
+        border-radius: 12px;
+        margin-left: 45%;
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    .main .our {
+        width: 100%;
+        height: 12vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family: serif;
+        padding-top: 15px;
+        float: left;
+    }
+
+    .main .our h2 {
+
+        color: rgb(1, 107, 149)
+    }
+
+    .main .box-1 {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: white;
+        padding: 10px 50px;
+        gap: 35px;
+
+    }
+
+    .main .web {
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 5px 10px gray;
+        float: left;
+        border-radius: 18px;
+        text-align: center;
+        padding: 25px 25px;
+
+
+
+    }
+
+    .main .web h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(1, 107, 149)
+    }
+
+
+    .main .web h4 {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        margin-top: 5px;
+
+    }
+
+
+    .main .digital {
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 5px 10px gray;
+        float: left;
+        border-radius: 18px;
+        text-align: center;
+        padding: 25px 25px;
+
+    }
+
+    .main .digital h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(1, 107, 149)
+    }
+
+
+    .main .digital h4 {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        margin-top: 5px;
+
+    }
+
+
+    .main .graphic {
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 5px 10px gray;
+        float: left;
+        border-radius: 18px;
+        text-align: center;
+        padding: 25px 25px;
+
+    }
+
+    .main .graphic h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(1, 107, 149)
+    }
+
+
+    .main .graphic h4 {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        margin-top: 5px;
+
+    }
+
+    .main .footer {
+        width: 100%;
+        height: 8vh;
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+
+
+
+
+
+}
+
+
+/* tab */
+
+
+@media (min-width: 767px) and (max-width: 992px) {
+    main {
+        width: 100%;
+        height: auto;
+        background-color: azure;
+
+    }
+
+    .main .lakshaya {
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(1, 107, 149);
+        color: white;
+        padding: 20px 40px;
+        float: left;
+    }
+
+    .lakshaya h2 {
+        font-size: 35px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .main .lakshaya .menu {
+    width: 50%;
+    height: 15vh;
+    padding: 8px 8px;
+    float: left;
+    font-size: 18px;
+    list-style: none;
+}
+
+
+    .main .responsive {
+        width: 100%;
+        height: auto;
+        background-color: rgb(51, 141, 176);
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 10px;
+        float: left;
+
+    }
+
+    .main .responsive h2 {
+        font-size: 50px;
+        font-family: sans-serif;
+        color: white;
+    }
+
+
+    .main .responsive h4 {
+        font-family: sans-serif;
+        font-size: 30px;
+        margin-top: 10px;
+
+    }
+
+
+    .main .responsive button {
+        width: auto;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        color: rgb(51, 141, 176);
+        font-size: 20px;
+        border: none;
+        border-radius: 12px;
+        margin-left: 44%;
+        margin-top: 2%;
+        padding: 10px 20px;
+    }
+
+    .main .our {
+        width: 100%;
+        height: 12vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family: serif;
+        padding-top: 15px;
+        float: left;
+    }
+
+    .main .our h2 {
+
+        color: rgb(1, 107, 149)
+    }
+
+    .main .box-1 {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: white;
+        gap: 20px;
+        align-items: center;
+        padding: 10px 10px;
+    }
+
+    .main .web {
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 5px 10px gray;
+        float: left;
+        border-radius: 18px;
+        text-align: center;
+        padding: 15px 15px;
+
+
+
+    }
+
+    .main .web h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(1, 107, 149)
+    }
+
+
+    .main .web h4 {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        margin-top: 5px;
+
+    }
+
+
+    .main .digital {
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 5px 10px gray;
+        float: left;
+        border-radius: 18px;
+        text-align: center;
+        padding: 15px 15px;
+
+    }
+
+    .main .digital h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(1, 107, 149)
+    }
+
+
+    .main .digital h4 {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        margin-top: 5px;
+
+    }
+
+
+    .main .graphic {
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 5px 10px gray;
+        float: left;
+        border-radius: 18px;
+        text-align: center;
+        padding: 15px 15px;
+
+    }
+
+    .main .graphic h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(1, 107, 149)
+    }
+
+
+    .main .graphic h4 {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        margin-top: 5px;
+
+    }
+
+    .main .footer {
+        width: 100%;
+        height: 8vh;
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+
+
+
+
+
+}
+
+
+/* mobile */
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+        height: auto;
+        background-color: azure;
+
+    }
+
+    .main .lakshaya {
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(1, 107, 149);
+        color: white;
+        padding: 20px 40px;
+        float: left;
+    }
+
+    .lakshaya h2 {
+        font-size: 35px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+
+    
+.main .lakshaya .menu {
+    width: 50%;
+    height: 15vh;
+    padding: 0px 8px;
+    float: left;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+    .hamburger {
+        display: block;
+        
+    }
+
+    .sub {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background: #0d6efd;
+        padding: 20px;
+    }
+
+    #menu-btn:checked~.sub {
+        display: flex;
+    }
+
+    .main .responsive {
+        width: 100%;
+        height: auto;
+        background-color: rgb(51, 141, 176);
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 10px;
+        float: left;
+
+    }
+
+    .main .responsive h2 {
+        font-size: 50px;
+        font-family: sans-serif;
+        color: white;
+    }
+
+
+    .main .responsive h4 {
+        font-family: sans-serif;
+        font-size: 30px;
+        margin-top: 10px;
+
+    }
+
+
+    .main .responsive button {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        color: rgb(51, 141, 176);
+        font-size: 20px;
+        border: none;
+        border-radius: 12px;
+        margin-top: 10px;
+        padding: 10px 10px;
+
+
+    }
+
+    .main .our {
+        width: 100%;
+        height: 12vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family: serif;
+        padding-top: 15px;
+        float: left;
+    }
+
+    .main .our h2 {
+
+        color: rgb(1, 107, 149)
+    }
+
+    .main .box-1 {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: white;
+        gap: 50px;
+        align-items: center;
+        padding: 10px 10px;
+    }
+
+    .main .web {
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 5px 10px gray;
+        float: left;
+        border-radius: 18px;
+        text-align: center;
+        padding: 15px 15px;
+
+
+
+    }
+
+    .main .web h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(1, 107, 149)
+    }
+
+
+    .main .web h4 {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        margin-top: 5px;
+
+    }
+
+
+    .main .digital {
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 5px 10px gray;
+        float: left;
+        border-radius: 18px;
+        text-align: center;
+        padding: 15px 15px;
+
+    }
+
+    .main .digital h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(1, 107, 149);
+    }
+
+
+    .main .digital h4 {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        margin-top: 5px;
+
+    }
+
+
+    .main .graphic {
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 0px 5px 10px gray;
+        float: left;
+        border-radius: 18px;
+        text-align: center;
+        padding: 15px 15px;
+
+    }
+
+    .main .graphic h2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(1, 107, 149)
+    }
+
+
+    .main .graphic h4 {
+        font-family: sans-serif;
+        font-size: 18px;
+        color: black;
+        margin-top: 5px;
+
+    }
+
+    .main .footer {
+        width: 100%;
+        height: 8vh;
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+
+
+
+
+
+}
